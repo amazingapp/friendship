@@ -12,3 +12,16 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+$factory->define(App\Post::class, function (Faker\Generator $faker) {
+    return [
+            'user_id' => factory('App\User')->create()->id,
+            'message' => $faker->sentence
+            ];
+});
+$factory->define(App\Comment::class, function (Faker\Generator $faker) {
+    return [
+            'user_id' => factory('App\User')->create()->id,
+            'post_id' => factory('App\Post')->create()->id,
+            'message' => $faker->sentence
+            ];
+});
