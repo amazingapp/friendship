@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
@@ -6,14 +6,9 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class UserNotifyTest extends MasterTestCase
 {
-    /**
-     * A basic functional test example.
-     *
-     * @return void
-     */
-    public function testBasicExample()
+    /** @test */
+    public function it_should_notify_user_about_events_that_occured()
     {
-        $this->visit('/')
-             ->see('Laravel');
+
     }
 }
