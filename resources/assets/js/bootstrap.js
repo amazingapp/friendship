@@ -1,6 +1,6 @@
 
 window._ = require('lodash');
-
+window.autosize = require('autosize');
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
  * for JavaScript based Bootstrap features such as modals and tabs. This
@@ -19,6 +19,7 @@ require('bootstrap-sass');
 window.Vue = require('vue');
 require('vue-resource');
 
+
 /**
  * We'll register a HTTP interceptor to attach the "CSRF" header to each of
  * the outgoing requests issued by this application. The CSRF middleware
@@ -26,7 +27,7 @@ require('vue-resource');
  */
 
 Vue.http.interceptors.push((request, next) => {
-    request.headers['X-CSRF-TOKEN'] = Laravel.csrfToken;
+    request.headers['X-CSRF-TOKEN'] = App.csrfToken;
 
     next();
 });
@@ -37,9 +38,13 @@ Vue.http.interceptors.push((request, next) => {
  * allows your team to easily build robust real-time web applications.
  */
 
-// import Echo from "laravel-echo"
+import Echo from "laravel-echo"
 
-// window.Echo = new Echo({
-//     broadcaster: 'pusher',
-//     key: 'your-pusher-key'
-// });
+window.Echo = new Echo({
+    broadcaster: 'socket.io',
+    host: 'http://192.168.1.2:6001'
+});
+window.Echo.private('chat-room.1')
+    .listen('ChatMessageWasReceived', (e) => {
+        console.log(e.user, e.message);
+    });
