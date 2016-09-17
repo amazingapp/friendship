@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
+use App\Traits\Timeline;
+use Auth;
 use Illuminate\Http\Request;
-
 class HomeController extends Controller
 {
+    use Timeline;
     /**
      * Create a new controller instance.
      *
@@ -23,6 +26,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $user = Auth::user();
+        $posts = $this->getTimelineFor($user)->paginate(5);
+        return view('home', compact('user', 'posts'));
     }
 }

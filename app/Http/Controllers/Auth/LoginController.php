@@ -36,4 +36,12 @@ class LoginController extends Controller
     {
         $this->middleware('guest', ['except' => 'logout']);
     }
+
+    /**
+     * Default username to login to the app
+     */
+    public function username()
+    {
+        return 'employee_id';
+    }
 }

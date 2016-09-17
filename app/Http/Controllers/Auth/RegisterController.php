@@ -50,7 +50,11 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => 'required|max:255',
             'email' => 'required|email|max:255|unique:users',
+            'employee_id' => 'required|unique:users',
             'password' => 'required|min:6|confirmed',
+        ], [
+            'employee_id.required' => 'Employee ID is required.',
+            'employee_id.unique' => 'Employee ID is already registered.',
         ]);
     }
 
@@ -64,6 +68,7 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
+            'employee_id' => $data['employee_id'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
