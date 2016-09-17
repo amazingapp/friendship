@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
 <div class="container">
@@ -10,15 +10,16 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
 
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                        <div class="form-group{{ $errors->has('employee_id') ? ' has-error' : '' }}">
+                            <label for="employee_id" class="col-md-4 control-label">Employee ID</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" autofocus>
+                                <input id="employee_id" type="employee_id" class="form-control" name="employee_id"
+                                    value="{{ old('employee_id') }}" autofocus>
 
-                                @if ($errors->has('email'))
+                                @if ($errors->has('employee_id'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>{{ $errors->first('employee_id') }}</strong>
                                     </span>
                                 @endif
                             </div>
