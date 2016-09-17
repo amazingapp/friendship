@@ -1,0 +1,14 @@
+.txt-borderless {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    padding:0px;
+    &:focus{
+        outline:none;
+    }
+}
+.post-textarea
+{
+    padding-bottom:0px;
+}

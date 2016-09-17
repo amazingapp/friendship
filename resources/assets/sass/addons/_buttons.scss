@@ -1,0 +1,13 @@
+.btn-post
+{
+    padding:1px 12px;
+    font-weight:bold;
+}
+.btn-likes-comments
+{
+    font-weight:bold;
+    color:#777777;
+    &:hover{
+        color:none !important;
+    }
+}

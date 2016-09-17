@@ -1,0 +1,38 @@
+.comment{
+    margin-top: 4px;
+}
+.commentbox{
+    border:0px;
+    box-shadow: none;
+    .user-comment{
+        padding-bottom:0px;
+    }
+}
+.commentbox-area{
+    padding-left:5px;
+    padding-top: 3px;
+    border-color:#eeeeee;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    width:90%;
+    height:32px;
+    &:disabled {
+    background-color: #f5f8fa;
+    }
+}
+.view-more-comments{
+    margin-bottom:4px;
+}
+.userComments{
+    margin-bottom:5px;
+        .user-message{
+            width:90%;
+            display:inline-block;
+        }
+}
+
+.like-comments-section{
+    margin-bottom: 7px;
+    font-weight:bold;
+}
