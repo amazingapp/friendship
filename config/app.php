@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Kathmandu',
 
     /*
     |--------------------------------------------------------------------------
@@ -173,11 +173,14 @@ return [
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+         Hootlex\Friendships\FriendshipsServiceProvider::class,
+         Laravel\Passport\PassportServiceProvider::class,
+         // Barryvdh\Debugbar\ServiceProvider::class,
     ],
 
     /*
@@ -225,6 +228,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // 'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];
