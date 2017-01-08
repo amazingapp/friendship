@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use App\Traits\Timeline;
-use Auth;
+use Auth, JavaScript;
 use Illuminate\Http\Request;
 class HomeController extends Controller
 {

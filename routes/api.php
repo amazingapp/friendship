@@ -1,8 +1,12 @@
 <?php
 
 use App\Post;
+use App\Transformers\Timeline as Timeliner;
+use App\Traits\Timeline;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
+Route::get('@{employee}/timeline', 'API\TimelineController@index');
 
 Route::get('/user', function (Request $request) {
     return $request->user();
@@ -14,6 +18,7 @@ Route::get('posts/{post}/comments', function(Post $post, Request $request) {
     $comments = $post->comments()
                     ->with('user')
                     ->where('created_at','<', $time)
+                    ->latest()
                     ->take(5)
                     ->get();
     if( ! $comments->count() )
@@ -24,7 +29,7 @@ Route::get('posts/{post}/comments', function(Post $post, Request $request) {
          return [
                 'profile_picture'  =>  '/images/32.png',
                 'user_name' => $comment->user->name,
-                'timestamp' => $time,
+                'timestamp' => $time->timestamp,
                 'message' => $comment->message
             ];
     });

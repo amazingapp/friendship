@@ -17,7 +17,9 @@
         "mdanter/ecc": "^0.4.0",
         "indigophp/hash-compat": "^1.1",
         "barryvdh/laravel-debugbar": "^2.2",
-        "laracasts/utilities": "^2.1"
+        "laracasts/utilities": "^2.1",
+        "maatwebsite/excel": "^2.1",
+        "consoletvs/charts": "^2.0"
     },
     "require-dev": {
         "tightenco/mailthief": "^0.2.3",

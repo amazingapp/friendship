@@ -27,5 +27,8 @@ class BroadcastServiceProvider extends ServiceProvider
         Broadcast::channel('chat-room.*', function ($user, $userId) {
             return  true; //(int) $user->id === (int) $userId;
         });
+        Broadcast::channel('App.User.*',function($user,$postId){
+             return true;
+        });
     }
 }

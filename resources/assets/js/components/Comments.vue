@@ -1,56 +1,49 @@
-<!-- Style -->
-<style>
-.userComments{
-    margin-bottom:5px;
-}
-.user-message{
-    width:90%;
-    display:inline-block;
-}
-</style>
 <!-- HTML TEMPLATE -->
 <template>
-<div class="comment">
-        <div class="view-more-comments">
-                <a href="#" v-on:click="getOldComments">View more comments</a>
-                <span class="old-comment-status">
-                    <img v-if="oldCommentLinkClicked" style="width:12px;" src="/images/loader.gif" alt="loading...">
-                    <span v-if="oldCommentLinksHasError" class="text-danger"> Something went wrong. Try again.</span>
-                </span>
-        </div>
-        <div class="userComments" v-for="user in users">
-                <span class="user-profile-image">
-                        <img :src="user.profile_picture" class="pull-left" />
-                </span>
-                <span class="user-message"> <a href="javascript:void();">
-                {{ user.user_name }}</a> {{ user.message }}
-                 <p><a class="text-muted" href="javascript:void();">10 mins ago</a></p>
-                </span>
-        </div>
-        <div class="write-a-comment">
-            <img src="/images/32.png" class="pull-left" />
-                <textarea rows=1 :disabled="isSubmitted" v-bind:style="commentStyle" autofocus v-model="comments.comment" @keydown="leaveComment($event)" v-bind:class="[classTextbox]" class="commentbox-area" name="comments" placeholder="Write a comment ..."></textarea>
-         </div>
+    <div>
+    <div class="comment">
+    <div class="view-more-comments">
+            <a href="#" v-show="hasMoreComments" v-on:click="getOldComments">View more comments</a>
+            <span class="old-comment-status">
+                <img v-if="oldCommentLinkClicked" style="width:12px;" src="/images/loader.gif" alt="loading...">
+                <span v-if="oldCommentLinksHasError" class="text-danger"> Something went wrong. Try again.</span>
+            </span>
     </div>
- <div class="clearfix"></div>
- </div>
+    <div class="userComments" v-for="user in users | orderBy 'timestamp'">
+            <span class="user-profile-image">
+                    <img :src="user.profile_picture" class="pull-left" />
+            </span>
+            <span class="user-message"> <a href="javascript:void();">
+            {{ user.user_name }}</a> {{ user.message }}
+             <p><a class="text-muted" href="javascript:void();">10 mins ago</a></p>
+            </span>
+    </div>
+    <div class="write-a-comment">
+        <img src="/images/32.png" class="pull-left" />
+            <textarea rows=1 :disabled="isSubmitted" v-bind:style="commentStyle" autofocus v-model="comments.comment" @keydown="leaveComment($event)" v-bind:class="[classTextbox]" class="commentbox-area" name="comments" placeholder="Write a comment ..."></textarea>
+     </div>
+    </div>
+    <div class="clearfix"></div>
+    </div>
 </template>
 
 <!-- JavaScript-->
 <script>
     export default {
 
-        props: ['postStatusCommentsData'],
+        props: ['postMetaData'],
         /*
          * Bootstrap the component. Load the initial data.
          */
         ready: function () {
-                const postStatusCommentsData = JSON.parse(this.postStatusCommentsData);
-                this.comments.user_id = postStatusCommentsData.user_id;
-                this.comments.post_id = postStatusCommentsData.post_id;
+                this.comments.user_id = this.postMetaData.user_id;
+                this.comments.post_id = this.postMetaData.post_id;
                 autosize( document.querySelector('.autotextbox' + this._uid) );
         },
         computed: {
+            hasMoreComments(){
+                return this.postMetaData.comments_count > 0;
+            },
            isSubmitted(){
              return this.commentStyle.disabled;
            },
@@ -94,12 +87,12 @@
                     .$http
                     .get('api/posts/'+ this.comments.post_id + '/comments?timestamp=' + this.recent_activity.timestamp)
                     .then( function (success) {
-                        var data = JSON.parse(success.data);
+                        var data = success.data;
                         if(data.code == 77)
                         {
                             this.recent_activity.timestamp = success.data.last_timestamp;
                         }
-                        _.each(JSON.parse(success.data).users,function(user){
+                        _.each(success.data.users,function(user){
                             this.users.unshift(user);
                         }.bind(this));
                     }, function (errors) {
@@ -142,15 +135,24 @@
                     .post('/api/posts/'+ this.comments.post_id + '/comment',
                      this.comments)
                     .then( function (success) {
-                            this.comments.left = true;
-                            this.comments.comment = '';
-                             this.$dispatch('leftComment');
+                            this.pushToArray(this.comments);
+                            this.$dispatch('leftComment');
                     }, function (errors) {
                         this.comments.left = false;
                     })
                     .finally(function(data) {
                         this.finishedLeavingComment();
                     });
+            },
+            pushToArray(comments){
+                this.users.push({
+                        profile_picture : Application.user.image,
+                        user_name : Application.user.name,
+                        timestamp : Math.round(new Date().getTime()/1000),
+                        message : comments.comment
+                });
+                this.comments.left = true;
+                this.comments.comment = '';
             }
         }
     }

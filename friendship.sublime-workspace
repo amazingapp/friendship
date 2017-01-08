@@ -4,8 +4,116 @@
 		"selected_items":
 		[
 			[
+				"ini",
+				"initiatingAjaxRequest"
+			],
+			[
+				"Time",
+				"Timeline\t(Timeline.php)"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"next",
+				"nextPageUrl"
+			],
+			[
+				"coll",
+				"collapse\t(Collection.php)"
+			],
+			[
+				"time",
+				"timeline"
+			],
+			[
+				"getTime",
+				"getTimeline"
+			],
+			[
+				"prf",
+				"profile_picture"
+			],
+			[
+				"creae",
+				"created_at"
+			],
+			[
+				"socket",
+				"socket.io\t(socket.js)"
+			],
+			[
+				"pagin",
+				"pagination\t(simple-bootstrap-4.blade.php)"
+			],
+			[
+				"rece",
+				"recipient\t(Friendable.php)"
+			],
+			[
+				"frid",
+				"friendsIds"
+			],
+			[
+				"friend",
+				"friend"
+			],
+			[
+				"recei",
+				"recipient_id"
+			],
+			[
+				"old",
+				"oldCommentLinksError"
+			],
+			[
+				"oldo",
+				"oldCommentLinkClicked"
+			],
+			[
+				"quer",
+				"queries"
+			],
+			[
+				"empid",
+				"employee_id"
+			],
+			[
+				"frin",
+				"friendship"
+			],
+			[
+				"fri",
+				"friend"
+			],
+			[
+				"Route",
+				"Route::controllerAction\tBasic route to a controller action."
+			],
+			[
+				"emp",
+				"employee_id\t(FriendshipTest.php)"
+			],
+			[
+				"another",
+				"anotherUser"
+			],
+			[
+				"frie",
+				"friend\t(User.php)"
+			],
+			[
+				"req",
+				"required|min:5"
+			],
+			[
+				"Test",
+				"test"
+			],
+			[
 				"DB",
-				"DB_CONNECTION=sqlite	(.env)"
+				"DB_CONNECTION=sqlite\t(.env)"
 			],
 			[
 				"categor",
@@ -17,15 +125,15 @@
 			],
 			[
 				"Category",
-				"CategoryField	(AdControllerTest.php)"
+				"CategoryField\t(AdControllerTest.php)"
 			],
 			[
 				"co",
-				"con	function __construct"
+				"con\tfunction __construct"
 			],
 			[
 				"in",
-				"input	Tag"
+				"input\tTag"
 			],
 			[
 				"Cate",
@@ -37,7 +145,7 @@
 			],
 			[
 				"Cache",
-				"Cache::put	Store an item in the Cache (key, value, minutes)"
+				"Cache::put\tStore an item in the Cache (key, value, minutes)"
 			],
 			[
 				"downloadd",
@@ -45,15 +153,11 @@
 			],
 			[
 				"__",
-				"__construct	(DownloadManager.php)"
+				"__construct\t(DownloadManager.php)"
 			],
 			[
 				"Roucont",
-				"Route::controllerAction	Basic route to a controller action."
-			],
-			[
-				"Route",
-				"Route::controllerAction	Basic route to a controller action."
+				"Route::controllerAction\tBasic route to a controller action."
 			],
 			[
 				"categ",
@@ -65,11 +169,11 @@
 			],
 			[
 				"Roug",
-				"Route::get	Basic Get Route."
+				"Route::get\tBasic Get Route."
 			],
 			[
 				"Do",
-				"DownloadManager	(composer.json)"
+				"DownloadManager\t(composer.json)"
 			],
 			[
 				"cas",
@@ -93,11 +197,11 @@
 			],
 			[
 				"nu",
-				"numeric	(MatchMaker.php)"
+				"numeric\t(MatchMaker.php)"
 			],
 			[
 				"dinnerdate",
-				"dinner_date	(MatchMaker.php)"
+				"dinner_date\t(MatchMaker.php)"
 			],
 			[
 				"li",
@@ -105,23 +209,19 @@
 			],
 			[
 				"wp_un",
-				"wp_unschedule_event	(cron.php)"
+				"wp_unschedule_event\t(cron.php)"
 			],
 			[
 				"m",
-				"mdh2	Markdown Header 2"
+				"mdh2\tMarkdown Header 2"
 			],
 			[
 				"sort",
-				"sortByDesc	(1-EmployeeWithMostValuableSaleTest.php)"
-			],
-			[
-				"emp",
-				"employeeWithMostValuableSale"
+				"sortByDesc\t(1-EmployeeWithMostValuableSaleTest.php)"
 			],
 			[
 				"group",
-				"groupBy	(Collection.php)"
+				"groupBy\t(Collection.php)"
 			],
 			[
 				"colu",
@@ -141,7 +241,7 @@
 			],
 			[
 				"unse",
-				"unserialize	(helpers.php)"
+				"unserialize\t(helpers.php)"
 			],
 			[
 				"hosid",
@@ -165,11 +265,11 @@
 			],
 			[
 				"post_t",
-				"post_title	(MatchMaker.php)"
+				"post_title\t(MatchMaker.php)"
 			],
 			[
 				"prv",
-				"private	(User.php)"
+				"private\t(User.php)"
 			],
 			[
 				"over",
@@ -180,12 +280,8 @@
 				"collection"
 			],
 			[
-				"coll",
-				"collect"
-			],
-			[
 				"for",
-				"for	for …"
+				"for\tfor …"
 			],
 			[
 				"gra",
@@ -193,7 +289,7 @@
 			],
 			[
 				"wp_re",
-				"wp_safe_redirect	(MatchMaker.php)"
+				"wp_safe_redirect\t(MatchMaker.php)"
 			],
 			[
 				"wp_",
@@ -201,7 +297,7 @@
 			],
 			[
 				"mach",
-				"matched	(feature.md)"
+				"matched\t(feature.md)"
 			],
 			[
 				"br",
@@ -217,7 +313,7 @@
 			],
 			[
 				"get_",
-				"get_permalink	(content.php)"
+				"get_permalink\t(content.php)"
 			],
 			[
 				"wp_get",
@@ -229,7 +325,7 @@
 			],
 			[
 				"WP",
-				"WP_User_Query	(MatchMaker.php)"
+				"WP_User_Query\t(MatchMaker.php)"
 			],
 			[
 				"postnu",
@@ -269,7 +365,7 @@
 			],
 			[
 				"schedu",
-				"schedule	(Schedule.php)"
+				"schedule\t(Schedule.php)"
 			],
 			[
 				"etu",
@@ -293,7 +389,7 @@
 			],
 			[
 				"get_the",
-				"get_the_title	(match.php)"
+				"get_the_title\t(match.php)"
 			],
 			[
 				"array",
@@ -301,7 +397,7 @@
 			],
 			[
 				"get_te",
-				"get_the_author_	(author-template.php)"
+				"get_the_author_\t(author-template.php)"
 			],
 			[
 				"sele",
@@ -309,7 +405,7 @@
 			],
 			[
 				"op",
-				"option	Tag"
+				"option\tTag"
 			],
 			[
 				"apike",
@@ -325,15 +421,11 @@
 			],
 			[
 				"Page",
-				"PageRefresh	(dummy.blade.php)"
+				"PageRefresh\t(dummy.blade.php)"
 			],
 			[
 				"r",
-				"r::g	routes_get"
-			],
-			[
-				"frie",
-				"friendsIds"
+				"r::g\troutes_get"
 			],
 			[
 				"with",
@@ -345,7 +437,7 @@
 			],
 			[
 				"Comment",
-				"CommentWasPosted	(CommentsController.php)"
+				"CommentWasPosted\t(CommentsController.php)"
 			],
 			[
 				"Lis",
@@ -357,11 +449,11 @@
 			],
 			[
 				"friendship",
-				"friendship_status	(SearchController.php)"
+				"friendship_status\t(SearchController.php)"
 			],
 			[
 				"con",
-				"con	function __construct"
+				"con\tfunction __construct"
 			],
 			[
 				"user",
@@ -373,23 +465,19 @@
 			],
 			[
 				"Post",
-				"PostComments	(PostComments.php)"
+				"PostComments\t(PostComments.php)"
 			],
 			[
 				"auth",
-				"authUser	(posts.blade.php)"
-			],
-			[
-				"fri",
-				"friendship"
+				"authUser\t(posts.blade.php)"
 			],
 			[
 				"ac",
-				"accepted	(User.php)"
+				"accepted\t(User.php)"
 			],
 			[
 				"fir",
-				"friend	(FriendsController.php)"
+				"friend\t(FriendsController.php)"
 			],
 			[
 				"first",
@@ -397,7 +485,7 @@
 			],
 			[
 				"emplo",
-				"employeeId	(PostsController.php)"
+				"employeeId\t(PostsController.php)"
 			],
 			[
 				"simple",
@@ -417,129 +505,60 @@
 			],
 			[
 				"this",
-				"this	codeigniter-this"
+				"this\tcodeigniter-this"
 			],
 			[
 				"Sche",
-				"Schema-drop	Schema-drop"
+				"Schema-drop\tSchema-drop"
 			],
 			[
 				"on",
-				"onclick	Attr"
-			],
-			[
-				"em",
-				"employee_id	(post.blade.php)"
-			],
-			[
-				"thi",
-				"this	codeigniter-this"
-			],
-			[
-				"parti",
-				"partials	(master.blade.php)"
-			],
-			[
-				"mess",
-				"messages	(routes.php)"
-			],
-			[
-				"requ",
-				"require	(app.js)"
-			],
-			[
-				"Comm",
-				"CommentsController@store	(routes.php)"
-			],
-			[
-				"seconduser",
-				"secondUser"
-			],
-			[
-				"createuser",
-				"createUserAndSignIn"
-			],
-			[
-				"cou",
-				"coupon	(checkout.js)"
-			],
-			[
-				"appl",
-				"applyDiscount"
-			],
-			[
-				"val",
-				"valid"
-			],
-			[
-				"exi",
-				"elixir('js"
-			],
-			[
-				"Rou",
-				"Route::group	Create a Group of Routes"
-			],
-			[
-				"firn",
-				"friend"
-			],
-			[
-				"frien",
-				"friend_id"
-			],
-			[
-				"friens",
-				"friendsOfMine"
-			],
-			[
-				"Frie",
-				"FriendsController@decline"
-			],
-			[
-				"or",
-				"overrides"
-			],
-			[
-				"te",
-				"test	(ExampleTest.php)"
-			],
-			[
-				"empl",
-				"employee_id"
-			],
-			[
-				"User",
-				"UserRegistered	(routes.php)"
-			],
-			[
-				"Auth",
-				"Auth-login	Auth-login"
+				"onclick\tAttr"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "readme.md",
+			"file": "routes/api.php",
 			"settings":
 			{
-				"buffer_size": 23,
+				"buffer_size": 1383,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+			"file": "resources/assets/js/app.js",
 			"settings":
 			{
-				"buffer_size": 888,
+				"buffer_size": 295,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "features.md",
+			"file": "resources/assets/js/components/Timeline.vue",
 			"settings":
 			{
-				"buffer_size": 639,
+				"buffer_size": 4869,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/assets/js/components/Comments.vue",
+			"settings":
+			{
+				"buffer_size": 6129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/assets/js/components/PostComments.vue",
+			"settings":
+			{
+				"buffer_size": 5227,
 				"line_ending": "Windows"
 			}
 		}
@@ -568,16 +587,68 @@
 	"command_palette":
 	{
 		"height": 372.0,
-		"last_filter": "renam",
+		"last_filter": "package list",
 		"selected_items":
 		[
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"setphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"sejavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"psr",
+				"Build With: PSR-2"
+			],
+			[
+				"",
+				"ANF: Delete Current File"
+			],
 			[
 				"renam",
 				"ANF: Rename File"
 			],
 			[
-				"",
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"delete",
 				"ANF: Delete Current File"
+			],
+			[
+				"bui",
+				"Build With: PSR-2"
+			],
+			[
+				"delet",
+				"ANF: Delete Current File"
+			],
+			[
+				"dleete",
+				"ANF: Delete Current File"
+			],
+			[
+				"build",
+				"Build With: PSR-2"
 			],
 			[
 				"dele",
@@ -585,10 +656,6 @@
 			],
 			[
 				"reame",
-				"ANF: Rename File"
-			],
-			[
-				"rename",
 				"ANF: Rename File"
 			],
 			[
@@ -600,14 +667,6 @@
 				"ANF: Delete Current File"
 			],
 			[
-				"psr",
-				"Build With: PSR-2"
-			],
-			[
-				"build",
-				"Build With: PSR-2"
-			],
-			[
 				"sublimeiniter",
 				"SublimeLinter: Toggle Linter"
 			],
@@ -616,27 +675,11 @@
 				"Package Control: List Packages"
 			],
 			[
-				"delete",
-				"ANF: Delete Current File"
-			],
-			[
 				"r",
 				"ANF: Rename File"
 			],
 			[
-				"ren",
-				"ANF: Rename File"
-			],
-			[
-				"rena",
-				"ANF: Rename File"
-			],
-			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -672,10 +715,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"setphp",
-				"Set Syntax: PHP"
-			],
-			[
 				"Package Control: insta",
 				"Package Control: Install Package"
 			],
@@ -697,10 +736,6 @@
 			],
 			[
 				"dlee",
-				"ANF: Delete Current File"
-			],
-			[
-				"dleete",
 				"ANF: Delete Current File"
 			],
 			[
@@ -733,10 +768,6 @@
 			],
 			[
 				"de",
-				"ANF: Delete Current File"
-			],
-			[
-				"delet",
 				"ANF: Delete Current File"
 			],
 			[
@@ -920,7 +951,7 @@
 				"Set Syntax: SQL"
 			],
 			[
-				"setphp	",
+				"setphp\t",
 				"Set Syntax: PHP"
 			],
 			[
@@ -968,7 +999,7 @@
 	},
 	"console":
 	{
-		"height": 202.0,
+		"height": 116.0,
 		"history":
 		[
 			"php",
@@ -992,144 +1023,142 @@
 	},
 	"expanded_folders":
 	[
-		"/E/VM/friendship",
-		"/E/VM/friendship/database",
-		"/E/VM/friendship/database/migrations"
+		"/E/VM/friendship"
 	],
 	"file_history":
 	[
-		"/E/VM/friendship/rules.md",
-		"/E/VM/friendship/feature.d",
-		"/E/VM/friendship/.gitignore",
-		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
-		"/E/VM/friendship/.env",
+		"/C/Users/PROBOOK/AppData/Roaming/BatteryBar/BatteryBar.Settings.xml",
+		"/E/VM/friendship/resources/assets/js/components/PostComments.vue",
+		"/C/Users/PROBOOK/AppData/Roaming/BatteryBar/BatteryBar.Profiles.xml",
+		"/E/VM/friendship/resources/assets/js/components/Comments.vue",
+		"/E/VM/friendship/bootstrap/app.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
 		"/E/VM/friendship/routes/web.php",
-		"/E/VM/friendship/config/database.php",
-		"/E/VM/friendship/phpunit.xml",
-		"/E/VM/friendship/package.json",
-		"/E/VM/friendship/.gitattributes",
-		"/E/VM/friendship/node_modules/.bin/envify",
+		"/E/VM/friendship/resources/assets/sass/app.scss",
+		"/E/VM/friendship/app/Post.php",
+		"/E/VM/friendship/app/Traits/TimelineTransformer.php",
+		"/E/VM/friendship/resources/views/home.blade.php",
+		"/E/VM/friendship/app/Http/Controllers/API/TimelineController.php",
+		"/E/VM/friendship/app/Traits/Timeline.php",
+		"/E/VM/friendship/resources/assets/sass/addons/_post.scss",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+		"/E/VM/friendship/app/Traits/Transformer.php",
+		"/E/VM/friendship/resources/assets/js/bootstrap.js",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Pagination/AbstractPaginator.php",
+		"/E/VM/friendship/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/E/VM/friendship/app/Transformers/Timeline.php",
+		"/E/VM/friendship/app/Transformers/Transformer.php",
+		"/E/VM/friendship/app/User.php",
+		"/E/VM/friendship/app/Providers/RouteServiceProvider.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Pagination/LengthAwarePaginator.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/E/VM/friendship/app/Http/Controllers/HomeController.php",
+		"/E/VM/friendship/resources/views/users/partials/user-single-timeline-post.blade.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Support/Collection.php",
+		"/E/VM/friendship/resources/views/layouts/master.blade.php",
+		"/E/VM/friendship/app/Http/Controllers/API/CommentsController.php",
+		"/E/VM/friendship/resources/assets/js/components/Timeline.vue",
+		"/E/VM/friendship/resources/views/vendor/pagination/simple-default.blade.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php",
+		"/E/VM/friendship/resources/assets/js/app.js",
+		"/E/VM/friendship/resources/assets/sass/addons/_adjustments.scss",
+		"/E/VM/friendship/features.md",
+		"/E/VM/friendship/app/Console/Kernel.php",
+		"/E/VM/friendship/config/excel.php",
+		"/E/VM/friendship/vendor/maatwebsite/excel/src/Maatwebsite/Excel/Readers/LaravelExcelReader.php",
+		"/E/VM/friendship/app/Console/Commands/PlayingWithExcel.php",
+		"/E/VM/friendship/vendor/maatwebsite/excel/src/Maatwebsite/Excel/Collections/CellCollection.php",
+		"/E/VM/friendship/vendor/maatwebsite/excel/src/Maatwebsite/Excel/Collections/ExcelCollection.php",
+		"/E/VM/friendship/vendor/maatwebsite/excel/src/Maatwebsite/Excel/Excel.php",
+		"/E/VM/friendship/routes/console.php",
+		"/E/VM/friendship/resources/views/users/partials/user-comments.blade.php",
+		"/E/VM/friendship/routes/api.php",
+		"/E/VM/friendship/config/app.php",
 		"/E/VM/friendship/composer.json",
-		"/E/VM/redeem-shop/app/Http/Controllers/AdsController.php",
-		"/E/VM/redeem-shop/routes/web.php",
-		"/E/VM/redeem-shop/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/E/VM/redeem-shop/database/factories/ModelFactory.php",
-		"/E/VM/redeem-shop/tests/MasterTestCase.php",
-		"/E/VM/redeem-shop/resources/views/advertisements/show.blade.php",
-		"/E/VM/redeem-shop/app/Http/Controllers/CommentsController.php",
-		"/E/VM/redeem-shop/tests/features/CommentsControllerTest.php",
-		"/E/VM/redeem-shop/tests/features/AdControllerTest.php",
-		"/E/VM/redeem-shop/tests/features/CategoryControllerTest.php",
-		"/E/VM/redeem-shop/tests/features/CommentControllerTest.php",
-		"/E/VM/redeem-shop/config/app.php",
-		"/E/VM/redeem-shop/vendor/jcrowe/bad-word-filter/src/JCrowe/BadWordFilter/Providers/BadWordFilterServiceProvider.php",
-		"/E/VM/redeem-shop/composer.json",
-		"/E/VM/redeem-shop/app/Advertisement.php",
-		"/E/VM/redeem-shop/.gitignore",
-		"/E/VM/redeem-shop/vendor/nesbot/carbon/src/Carbon/Carbon.php",
-		"/E/VM/redeem-shop/app/CategoryField.php",
-		"/E/VM/redeem-shop/composer.lock",
-		"/E/VM/redeem-shop/resources/assets/js/bootstrap.js",
-		"/E/VM/redeem-shop/resources/views/passport/show.blade.php",
-		"/E/VM/redeem-shop/resources/assets/js/app.js",
-		"/E/VM/redeem-shop/package.json",
-		"/E/VM/redeem-shop/gulpfile.js",
-		"/E/VM/redeem-shop/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Http/ResponseTrait.php",
-		"/E/VM/redeem-shop/vendor/laravel/passport/src/Http/Middleware/CreateFreshApiToken.php",
-		"/C/Users/PROBOOK/Desktop/task-sample",
-		"/E/VM/redeem-shop/app/Http/Kernel.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
-		"/E/VM/redeem-shop/app/User.php",
-		"/E/VM/redeem-shop/app/Providers/AuthServiceProvider.php",
-		"/E/VM/redeem-shop/config/auth.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
-		"/E/VM/redeem-shop/public/js/app.js",
-		"/E/VM/redeem-shop/resources/views/welcome.blade.php",
-		"/E/VM/redeem-shop/app/Category.php",
-		"/E/VM/redeem-shop/resources/views/category/show.blade.php",
-		"/E/VM/redeem-shop/app/Http/Controllers/CategoryController.php",
-		"/E/VM/redeem-shop/app/Repository/AdvertisementsRepository.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
-		"/E/VM/redeem-shop/database/migrations/2016_08_19_100808_create_categories_table.php",
-		"/E/VM/redeem-shop/vendor/fzaninotto/faker/src/Faker/Generator.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php",
-		"/E/VM/redeem-shop/tests/unit/AdvertisementTest.php",
-		"/C/Users/PROBOOK/AppData/Roaming/Composer/vendor/bin/composer",
-		"/C/Users/PROBOOK/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/cmder/config/aliases",
-		"/E/VM/redeem-shop/server.php",
-		"/C/Users/PROBOOK/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/PROBOOK/AppData/Roaming/Sublime Text 3/Installed Packages/Phpcs.sublime-package",
-		"/E/VM/redeem-shop/readme.md",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authorize.php",
-		"/E/VM/redeem-shop/resources/views/advertisements/index.blade.php",
-		"/E/VM/redeem-shop/database/migrations/2016_08_18_133905_create_advertisements_table.php",
-		"/E/VM/redeem-shop/features.md",
-		"/E/VM/redeem-shop/node_modules/colors/ReadMe.md",
-		"/E/VM/redeem-shop/app/Http/Requests/AdvertisementRequest.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithPages.php",
-		"/E/VM/redeem-shop/resources/views/advertisements/create.blade.php",
-		"/E/VM/redeem-shop/storage/framework/views/621262e4bfb48e32210fc8afc1e60c44f995c8bc.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Contracts/Auth/UserProvider.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
-		"/E/VM/redeem-shop/vendor/hamcrest/hamcrest-php/generator/FactoryMethod.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Support/Collection.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Http/Request.php",
-		"/E/VM/redeem-shop/app/Repository/AdvertisementsRepository",
-		"/E/VM/redeem-shop/app/Repository/AdvertisementRepository.php",
-		"/E/VM/redeem-shop/routes/console.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Database/SqlServerConnection.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Validation/ValidatesWhenResolvedTrait.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
-		"/E/VM/redeem-shop/database/migrations/2016_08_19_102849_create_categories_fields_table.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php",
-		"/E/VM/redeem-shop/tests/unit/CategoryTest.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php",
-		"/E/VM/redeem-shop/app/Traits/CategoryFields.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/Events/BroadcastNotificationCreated.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/Notification.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Notifications/RoutesNotifications.php",
-		"/E/VM/redeem-shop/database/migrations/2016_08_18_063144_create_images_table.php",
-		"/E/VM/redeem-shop/vendor/ramsey/uuid/src/Uuid.php",
-		"/E/VM/redeem-shop/storage/logs/laravel.log",
-		"/E/VM/redeem-shop/vendor/ramsey/uuid/LICENSE",
-		"/E/VM/redeem-shop/tests/features/ProductControllerTest.php",
-		"/E/VM/redeem-shop/tests/ExampleTest.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Support/Str.php",
-		"/E/VM/redeem-shop/node_modules/lodash/over.js",
-		"/C/Users/PROBOOK/AppData/Roaming/Sublime Text 3/Packages/User/has-one.sublime-snippet",
-		"/E/VM/redeem-shop/.env",
-		"/E/VM/redeem-shop/config/database.php",
-		"/E/VM/redeem-shop/phpunit.xml",
-		"/E/VM/redeem-shop/app/Http/routes.php",
-		"/E/VM/redeem-shop/database/migrations/2016_08_12_210225_create_products_table.php",
-		"/E/VM/redeem-shop/database/migrations/2016_08_12_210928_create_images_table.php",
-		"/E/VM/redeem-shop/vendor/laravel/framework/src/Illuminate/Support/Fluent.php",
-		"/E/VM/redeem-shop/app/Console/Kernel.php",
-		"/E/VM/telebot/composer.json",
-		"/E/VM/telebot/composer.lock",
-		"/E/VM/telebot/app/Console/Kernel.php",
-		"/E/VM/telebot/app/Console/Commands/DownloadManager.php",
-		"/E/VM/telebot/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
-		"/E/VM/telebot/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/ImpersonatesUsers.php",
-		"/E/VM/telebot/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php",
+		"/E/wamp/bin/php/php7.0.1/php.ini",
+		"/E/VM/friendship/app/Http/Controllers/PostsController.php",
+		"/E/VM/friendship/database/migrations/2016_08_28_140354_create_posts_table.php",
+		"/E/VM/friendship/package.json",
+		"/E/VM/friendship/resources/assets/sass/addons/_commentbox.scss",
+		"/E/VM/friendship/resources/assets/js/components/timeline.vue",
+		"/E/VM/friendship/app/Providers/BroadcastServiceProvider.php",
+		"/E/VM/friendship/database/migrations/2016_08_28_140824_create_notifications_table.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/PendingBroadcast.php",
+		"/E/VM/friendship/app/Notifications/CommentNotification.php",
+		"/E/VM/friendship/app/Http/Requests/CommentsRequest.php",
+		"/E/VM/friendship/app/Events/CommentWasPosted.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Notifications/RoutesNotifications.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/InteractsWithSockets.php",
+		"/E/VM/friendship/app/Providers/ViewComposerServiceProvider.php",
+		"/E/VM/friendship/resources/assets/js/components/Example.vue",
+		"/E/VM/friendship/app/Notifications/Comment.php",
+		"/E/VM/friendship/resources/views/users/partials/user-post.blade.php",
+		"/E/VM/friendship/config/javascript.php",
+		"/E/VM/friendship/vendor/laracasts/utilities/src/JavaScriptFacade.php",
+		"/E/VM/friendship/app/Http/Controllers/Controller.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/View/Factory.php",
+		"/E/VM/friendship/resources/views/layouts/footer.blade.php",
+		"/E/VM/friendship/.gitignore",
+		"/E/VM/friendship/app/Traits/PostBroadcaster.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php",
+		"/E/VM/friendship/app/Traits/PostsBroadcaster.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php",
+		"/E/VM/friendship/resources/views/welcome.blade.php",
+		"/E/VM/friendship/resources/assets/js/components/passport/PersonalAccessTokens.vue",
+		"/E/VM/friendship/resources/assets/js/components/passport/AuthorizedClients.vue",
+		"/E/VM/friendship/resources/assets/js/components/passport/Clients.vue",
+		"/E/VM/friendship/app/Providers/AuthServiceProvider.php",
+		"/E/VM/friendship/config/auth.php",
+		"/E/VM/friendship/app/Comment.php",
+		"/E/VM/friendship/app/Http/Controllers/CommentsController.php",
+		"/E/VM/friendship/app/Console/Commands/SendChatMessage.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastController.php",
+		"/E/VM/friendship/app/Events/ChatMessageWasReceived.php",
+		"/E/VM/friendship/laravel-echo-server.json",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Support/Facades/Broadcast.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/Factory.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/PrivateChannel.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Broadcasting/Channel.php",
+		"/E/VM/friendship/app/Providers/EventServiceProvider.php",
+		"/E/VM/friendship/config/queue.php",
+		"/E/VM/friendship/.env",
+		"/E/VM/friendship/app/Events/ShippingStatusUpdated.php",
+		"/E/VM/friendship/socket.js",
+		"/E/VM/friendship/config/broadcasting.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Contracts/Broadcasting/ShouldBroadcast.php",
+		"/E/VM/friendship/gulpfile.js",
+		"/E/VM/friendship/node_modules/socket.io-client/socket.io.js",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Support/Str.php",
+		"/E/VM/friendship/resources/views/vendor/pagination/simple-bootstrap-4.blade.php",
+		"/E/VM/friendship/config/debugbar.php",
+		"/E/VM/friendship/vendor/hootlex/laravel-friendships/src/Traits/Friendable.php",
+		"/C/Users/PROBOOK/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/PROBOOK/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/E/VM/telebot/vendor/laravel/framework/src/Illuminate/Console/Scheduling/ScheduleRunCommand.php",
-		"/E/VM/telebot/vendor/symfony/console/Command/Command.php",
-		"/E/VM/telebot/vendor/laravel/framework/src/Illuminate/Console/Command.php"
+		"/E/VM/friendship/app/Like.php",
+		"/E/VM/friendship/database/migrations/2016_08_28_140902_create_likes_table.php",
+		"/E/VM/friendship/vendor/symfony/http-foundation/Response.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
+		"/E/VM/friendship/tests/features/FriendshipTest.php",
+		"/E/VM/friendship/tests/features/CommentTest.php",
+		"/E/VM/friendship/node_modules/autosize/src/autosize.js",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Http/Response.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Http/ResponseTrait.php",
+		"/E/VM/friendship/database/factories/ModelFactory.php",
+		"/E/VM/friendship/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php",
+		"/E/VM/friendship/app/Http/Controllers/FriendsController.php",
+		"/E/VM/friendship/resources/views/users/show.blade.php",
+		"/E/VM/friendship/storage/logs/laravel.log"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 82.0
 	},
 	"find_in_files":
 	{
@@ -1155,134 +1184,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"DB_",
-			"createAndLogin",
-			"eyJpdiI6IkZUZmxFYjhESEZSWDFJXC9qMzBlR2dBPT0iLCJ2YWx1ZSI6ImZ4SFRlSnpWcjZ3cnBsVGo0YmY1K3c2QzZWcndITUVVUmJFU25cL1dWYWp3U3ZlTDFIUWhFcU5yc0hkWEp4ZDR3V2RKZENjNHd1SkNpZ3VmRjBlT0FJdytWd0dYSk5OWWV3M1pmbkxSakpUSDd4TnpoOElRdDE0M0RZaUJcL0t2SU9yUFZaU1h1azR0NVd3SlhYbWJrUE1ueU1RZE4ybmNjQWthZzU1b25UZGNEbHVEcFV6QWJuUElIUUxLRlhxXC9GTWFDYlU1WWYrNGFJRWVLaFFIQ2VQNnY3K3ZXMXdTSURYS2VXZ2FGMGk4S3ZIQ2lcLzhRYXpSNFwvQWIwRmdvcFFHb2treFN3bEhFN3dNeWFOWWxROWhhcGc9PSIsIm1hYyI6IjBiMWE1YjkzM2IzMWQ4M2EzZGViNTM3NGFjYTA0NzczNzEzZWFhYTUxMjU2ZWU4M2Y2ZDUyMzcwZjk2OTNjY2QifQ",
-			"description",
-			"5",
-			" [],",
-			"create",
-			"parent_id",
-			"title",
-			"AdsController",
-			"category",
-			"when_browsing_to_single_category_url_it_should_only_display_the_category_related_to_that",
-			"where",
-			"times",
-			"php",
-			"Advertisement",
-			"user_id",
-			"user",
-			"Advertisement",
-			"user_id",
-			"all",
-			"AdvertisementsRepository",
-			"create",
-			"AdsController",
-			"Bagmati",
-			"type",
-			"Sports",
-			"Bagmati",
-			"title",
-			"dashboard",
-			"Sumit",
-			"Register",
+			"getCommentUrl",
+			"commentStyle",
+			"oldCommentLinksError",
+			"previousCommentsHasError",
+			"comments",
+			"doThis",
+			"timelineRetrived",
+			"structure",
+			"$request->",
+			"tmeline",
+			"posts",
+			"Timeliner",
+			"profile",
+			"dTieline",
+			"created_at",
+			"commented_at",
+			"moment",
+			"postStatusCommentsData",
+			"JSON.parse(",
+			"postStatusCommentsData",
+			"hasMoreComments",
+			"Events",
+			"Messages",
+			"Category Name",
+			"timelineRetrived",
+			"currentPage",
+			"timeline",
+			"isPreviousPageUrlDisabled",
+			"lastPage",
+			"data",
+			"employees",
+			"flatten",
+			"sheet",
+			"import",
+			"LaravelExcelReader",
+			"reader",
+			"SendChatMessage",
+			"zip",
+			"php_zip",
+			"php_zio",
+			"user_",
+			"created",
+			"timeline",
+			"timelineRetrived",
+			"commentbox-area",
+			"teams",
+			"Singh",
+			"comment",
+			"InvoicePaid",
+			"ail",
+			"mail",
+			"email",
+			"leavingComment",
+			"finishedLeavingComment",
+			"comments",
+			"namespace",
+			"employee_id",
+			"getClients",
+			"getScopes",
+			"token.length",
+			"response",
+			"response.",
+			"response.data;",
 			"post",
-			"visit",
-			"MTestCase",
-			"TestCase",
-			"MasterTestCase",
-			"options",
-			"multiple",
-			"users",
+			"0kmkjcqnuac5b940jbgmuumnulujeqput4pfgjbff1r817o4q4h6sfe5updn",
+			"Illuminate\\Contracts\\Broadcasting\\Factory",
+			"BroadcastServiceProvider",
+			"log",
+			"pcntl",
+			"pcntl ",
+			"3001",
+			"uid-",
+			"employee",
+			"sortBy",
+			"&raquo;",
+			"&laquo;",
+			"disabled",
+			"page-item ",
+			"page-item",
+			"&laquo;",
+			"&raquo;",
+			"link\">&raquo;",
+			"page-item",
+			"page",
+			"page-item",
+			"next",
+			"div",
+			"diffToHumans",
+			"ISO8601",
+			"findFriendships",
+			"e.",
+			"comments",
+			"last_timestamp",
+			"timestamp",
+			"oldCommentLinksError",
+			"oldCommentLinksHasError",
+			"oldCommentLinksError",
+			"leaveComment",
+			"enter",
+			"oldCommentLinksError",
+			"oldCommentLinksHasError",
+			"oldCommentLinksError",
+			"oldCommentLinkClicked",
+			"finishedAjax",
+			"startAjax",
+			"orderBy",
+			"log",
+			"post_id",
 			"user_id",
-			"category_id",
-			"item",
-			"element",
-			"slug",
-			"str",
-			"slug",
-			"name",
-			"Advertisement",
-			"product",
-			"Product",
-			"product",
-			"Product",
-			"ExampleTest",
-			"mysql",
-			"QUEUE_DRIVER",
-			"account_id",
-			";",
-			"Done",
-			"StreamInterface",
-			"stream",
-			"InteractsWithPages",
-			"prepareUrlForRequest",
-			"prepare",
-			"DownloadManager",
-			"this",
-			"RecursiveDirectoryIterator",
-			"RecursiveIteratorIterator",
-			"RecursiveDirectoryIterator",
-			"string",
-			"deliverability",
-			"used_for",
-			"condition",
-			"instanceof",
-			"uploaded_size",
-			"upload_size",
-			"downloaded_size",
-			"download_size",
-			"progressCallback",
-			"auto",
-			"update",
-			"15556666666",
-			"NEXMO_SECRET",
-			"laravel",
-			"stripe",
-			"description",
-			"title",
-			"description",
-			"category_id",
-			"App\\",
-			"category",
-			"logo",
-			"location",
-			"/",
-			"city",
-			"categoryTouse",
-			"o",
-			"Other",
-			"random",
-			"line",
-			"url",
-			"faker",
-			"password",
-			"category_id",
-			"->",
-			"company_name",
-			"name",
-			"homestead",
-			"sqlite",
-			"Client",
-			"DownloadManager",
-			"App",
-			"framework",
-			"widget",
-			"status",
-			"20",
-			"2",
-			"status",
-			"find",
-			"sidebar",
-			"fold_button_control",
-			"sidebar",
-			"expan",
-			"[37, 43, 57]",
-			"status",
-			"sidebar",
-			"active",
-			"sidebar"
+			"show",
+			"UsersController",
+			"FriendsController",
+			"acceptFri",
+			"Post",
+			"it_should_be_able_to_create_future_events",
+			"rejecting",
+			"request",
+			"user",
+			"user_id",
+			"friends_requests",
+			"button",
+			"user",
+			"getPendingFriendships",
+			"FriendshipController",
+			"receipient",
+			"user",
+			"employee_id",
+			"User'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1300,24 +1329,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "readme.md",
+					"file": "routes/api.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23,
+						"buffer_size": 1383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								254,
+								254
 							]
 						],
 						"settings":
@@ -1340,21 +1369,16 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1365,38 +1389,355 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/assets/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/assets/js/components/Timeline.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1068,
+								1068
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/assets/js/components/Comments.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3098,
+								3098
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1406,20 +1747,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+					"buffer": 4,
+					"file": "resources/assets/js/components/PostComments.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 888,
+						"buffer_size": 5227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								740,
-								740
+								90,
+								90
 							]
 						],
 						"settings":
@@ -1429,27 +1770,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										739,
-										740
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										277,
-										278
-									]
 								},
 								"unmatched":
 								{
@@ -1457,167 +1783,65 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 393.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "features.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								604,
-								604
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1686,516 +1910,516 @@
 		"selected_items":
 		[
 			[
-				"gitignore",
-				".gitignore"
+				"postcomment",
+				"resources\\assets\\js\\components\\PostComments.vue"
 			],
 			[
-				"database",
-				"config\\database.php"
+				"commnet.v",
+				"resources\\assets\\js\\components\\Comments.vue"
+			],
+			[
+				"api.ph",
+				"routes\\api.php"
+			],
+			[
+				"ap.p",
+				"bootstrap\\app.php"
+			],
+			[
+				"app/p",
+				"app\\Post.php"
+			],
+			[
+				"illumi/route",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"illuminate/route",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteCollection.php"
 			],
 			[
 				"web",
 				"routes\\web.php"
 			],
 			[
-				".en",
-				".env"
+				"comments.v",
+				"resources\\assets\\js\\components\\Comments.vue"
 			],
 			[
-				"",
-				".gitattributes"
+				"paginator",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Pagination\\AbstractPaginator.php"
 			],
 			[
-				"env",
-				"node_modules\\.bin\\envify"
-			],
-			[
-				"composer",
-				"composer.json"
-			],
-			[
-				"layouts/ap",
-				"resources\\views\\layouts\\app.blade.php"
-			],
-			[
-				"config/app",
-				"config\\app.php"
-			],
-			[
-				"ad/show",
-				"resources\\views\\advertisements\\show.blade.php"
-			],
-			[
-				"adaver",
-				"app\\Advertisement.php"
-			],
-			[
-				"adve",
-				"app\\Advertisement.php"
-			],
-			[
-				"commentcont",
-				"app\\Http\\Controllers\\CommentsController.php"
-			],
-			[
-				"adver/so",
-				"resources\\views\\advertisements\\show.blade.php"
-			],
-			[
-				"adscontroller",
-				"app\\Http\\Controllers\\AdsController.php"
-			],
-			[
-				"modelfac",
-				"database\\factories\\ModelFactory.php"
-			],
-			[
-				"create_users",
-				"database\\migrations\\2014_10_12_000000_create_users_table.php"
-			],
-			[
-				"master",
-				"tests\\MasterTestCase.php"
+				"rsp",
+				"app\\Providers\\RouteServiceProvider.php"
 			],
 			[
 				"carbon",
 				"vendor\\nesbot\\carbon\\src\\Carbon\\Carbon.php"
 			],
 			[
-				"com",
-				"composer.json"
+				"user-single-timeline-post",
+				"resources\\views\\users\\partials\\user-single-timeline-post.blade.php"
 			],
 			[
-				"passport/show",
-				"resources\\views\\passport\\show.blade.php"
+				"colelction",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php"
 			],
 			[
-				"package",
-				"package.json"
+				"bootstrap",
+				"resources\\assets\\js\\bootstrap.js"
 			],
 			[
-				"g",
-				"gulpfile.js"
+				"timeline.u",
+				"resources\\assets\\js\\components\\Timeline.vue"
 			],
 			[
-				"pack",
-				"package.json"
+				"homebl",
+				"resources\\views\\home.blade.php"
 			],
 			[
-				"supporthelper",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
+				"commentcont",
+				"app\\Http\\Controllers\\API\\CommentsController.php"
 			],
 			[
-				"passport/sho",
-				"resources\\views\\passport\\show.blade.php"
+				"home.",
+				"resources\\views\\home.blade.php"
 			],
 			[
-				"pac",
-				"package.json"
+				"master",
+				"resources\\views\\layouts\\master.blade.php"
 			],
 			[
-				"package.",
-				"package.json"
+				"paginatiosimple-default",
+				"resources\\views\\vendor\\pagination\\simple-default.blade.php"
 			],
 			[
-				"welcome",
-				"resources\\views\\welcome.blade.php"
+				"timline.vu",
+				"resources\\assets\\js\\components\\Timeline.vue"
 			],
 			[
-				"reso/js/app",
+				"app.js",
 				"resources\\assets\\js\\app.js"
 			],
 			[
-				"config/auth",
-				"config\\auth.php"
+				"api",
+				"routes\\api.php"
 			],
 			[
-				"asp",
-				"app\\Providers\\AuthServiceProvider.php"
+				"pagn",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Pagination\\Paginator.php"
 			],
 			[
-				"app/user",
-				"app\\User.php"
+				"pagination/simple-default",
+				"resources\\views\\vendor\\pagination\\simple-default.blade.php"
 			],
 			[
-				"blueprint",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php"
+				"_",
+				"resources\\assets\\sass\\addons\\_adjustments.scss"
 			],
 			[
-				"config/ap",
-				"config\\app.php"
-			],
-			[
-				"adcont",
-				"app\\Http\\Controllers\\AdsController.php"
-			],
-			[
-				"adver",
-				"app\\Advertisement.php"
-			],
-			[
-				"app/cate",
-				"app\\Category.php"
-			],
-			[
-				"categorycont",
-				"tests\\features\\CategoryControllerTest.php"
-			],
-			[
-				"app/ad",
-				"app\\Advertisement.php"
-			],
-			[
-				"modelfa",
-				"database\\factories\\ModelFactory.php"
-			],
-			[
-				"category",
-				"app\\Category.php"
-			],
-			[
-				"controllers/categr",
-				"app\\Http\\Controllers\\CategoryController.php"
-			],
-			[
-				"cateorycont",
-				"tests\\features\\CategoryControllerTest.php"
-			],
-			[
-				"adverti",
-				"app\\Advertisement.php"
-			],
-			[
-				"createcatego",
-				"database\\migrations\\2016_08_19_100808_create_categories_table.php"
-			],
-			[
-				"modelfact",
-				"database\\factories\\ModelFactory.php"
-			],
-			[
-				"adconttes",
-				"tests\\features\\AdControllerTest.php"
-			],
-			[
-				"unit/",
-				"tests\\unit\\AdvertisementTest.php"
-			],
-			[
-				"read",
-				"readme.md"
-			],
-			[
-				"create_",
-				"database\\migrations\\2016_08_18_133905_create_advertisements_table.php"
-			],
-			[
-				"adver/ind",
-				"resources\\views\\advertisements\\index.blade.php"
-			],
-			[
-				"readme",
-				"node_modules\\colors\\ReadMe.md"
-			],
-			[
-				"feat",
+				"fature",
 				"features.md"
 			],
 			[
-				"/621262e4bfb48e32210fc8afc1e60c44f995c8bc.",
-				"storage\\framework\\views\\621262e4bfb48e32210fc8afc1e60c44f995c8bc.php"
+				"home.b",
+				"resources\\views\\home.blade.php"
 			],
 			[
-				"create_user",
-				"database\\migrations\\2014_10_12_000000_create_users_table.php"
+				"excel/collections/cellcollection",
+				"vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\Collections\\CellCollection.php"
 			],
 			[
-				"create_ad",
-				"database\\migrations\\2016_08_18_133905_create_advertisements_table.php"
+				"excel",
+				"config\\excel.php"
 			],
 			[
-				"advercreate",
-				"resources\\views\\advertisements\\create.blade.php"
+				"laravelexcelreader",
+				"vendor\\maatwebsite\\excel\\src\\Maatwebsite\\Excel\\Readers\\LaravelExcelReader.php"
 			],
 			[
-				"advertisement",
-				"app\\Advertisement.php"
+				"console.",
+				"routes\\console.php"
 			],
 			[
-				"advertisementsrepository",
-				"app\\Repository\\AdvertisementsRepository.php"
-			],
-			[
-				"categoryf",
-				"app\\CategoryField.php"
-			],
-			[
-				"factorymod",
-				"vendor\\hamcrest\\hamcrest-php\\generator\\FactoryMethod.php"
-			],
-			[
-				"factorymo",
-				"vendor\\hamcrest\\hamcrest-php\\generator\\FactoryMethod.php"
-			],
-			[
-				"createadver",
-				"database\\migrations\\2016_08_18_133905_create_advertisements_table.php"
-			],
-			[
-				"advertiseh",
-				"app\\Advertisement.php"
-			],
-			[
-				"create_adver",
-				"database\\migrations\\2016_08_18_133905_create_advertisements_table.php"
-			],
-			[
-				"model",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php"
-			],
-			[
-				"advertisements/ind",
-				"resources\\views\\advertisements\\index.blade.php"
-			],
-			[
-				"ad/create",
-				"resources\\views\\advertisements\\create.blade.php"
-			],
-			[
-				"adver/create",
-				"resources\\views\\advertisements\\create.blade.php"
-			],
-			[
-				"advercont",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\SqlServerConnection.php"
-			],
-			[
-				"http/ker",
-				"app\\Http\\Kernel.php"
-			],
-			[
-				"route/we",
-				"routes\\web.php"
-			],
-			[
-				"modefac",
-				"database\\factories\\ModelFactory.php"
-			],
-			[
-				"web.",
-				"routes\\web.php"
-			],
-			[
-				"advet/create",
-				"resources\\views\\advertisements\\create.blade.php"
-			],
-			[
-				"adcontro",
-				"app\\Http\\Controllers\\AdsController.php"
-			],
-			[
-				"advertes",
-				"tests\\unit\\AdvertisementTest.php"
-			],
-			[
-				"web.php",
-				"routes\\web.php"
-			],
-			[
-				"illutestcase",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing\\TestCase.php"
-			],
-			[
-				"categor",
-				"app\\Category.php"
-			],
-			[
-				"create_categorfi",
-				"database\\migrations\\2016_08_19_102849_create_categories_fields_table.php"
-			],
-			[
-				"feature",
-				"features.md"
-			],
-			[
-				"notifiable",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\Notifiable.php"
-			],
-			[
-				"notificationtrait",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\Events\\BroadcastNotificationCreated.php"
-			],
-			[
-				"notification",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\DatabaseNotification.php"
-			],
-			[
-				"notificationtrai",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\RoutesNotifications.php"
-			],
-			[
-				"fea",
-				"features.md"
-			],
-			[
-				"create_images",
-				"database\\migrations\\2016_08_18_063144_create_images_table.php"
-			],
-			[
-				"adscont",
-				"app\\Http\\Controllers\\AdsController.php"
-			],
-			[
-				"support/helper",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
-			],
-			[
-				"illuhelper",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php"
-			],
-			[
-				"ramsuuid",
-				"vendor\\ramsey\\uuid\\src\\Uuid.php"
-			],
-			[
-				"ramsey",
-				"vendor\\ramsey\\uuid\\LICENSE"
-			],
-			[
-				"lover",
-				"node_modules\\lodash\\over.js"
-			],
-			[
-				"support/str",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Str.php"
-			],
-			[
-				".env",
-				".env"
-			],
-			[
-				"create_pr",
-				"database\\migrations\\2016_08_12_210225_create_products_table.php"
-			],
-			[
-				"/illuminate/support/fluent",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Fluent.php"
-			],
-			[
-				"schema/blueprint",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php"
-			],
-			[
-				"compsoer",
+				"composer",
 				"composer.json"
 			],
 			[
-				"crawlwer",
-				"vendor\\symfony\\dom-crawler\\Crawler.php"
+				"app",
+				"config\\app.php"
 			],
 			[
-				"guzzlehttp/psr7/stream",
-				"vendor\\guzzlehttp\\psr7\\src\\Stream.php"
-			],
-			[
-				"testing/tesc",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing\\TestCase.php"
-			],
-			[
-				"test",
-				"tests\\TestCase.php"
-			],
-			[
-				"illuminate/console/scheduling/schedule",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Schedule.php"
-			],
-			[
-				"sched",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\Schedule.php"
-			],
-			[
-				"scheduler",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Console\\Scheduling\\ScheduleRunCommand.php"
-			],
-			[
-				"console/command/",
-				"vendor\\symfony\\console\\Command\\Command.php"
-			],
-			[
-				"illuminate/console/command",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php"
-			],
-			[
-				"log-20",
-				"storage\\logs\\laravel-2016-08-15.log"
-			],
-			[
-				"download",
-				"app\\Console\\Commands\\DownloadManager.php"
-			],
-			[
-				".ignore",
-				".gitignore"
-			],
-			[
-				"/git",
-				"vendor\\monolog\\monolog\\src\\Monolog\\Processor\\GitProcessor.php"
-			],
-			[
-				"create_image",
-				"database\\migrations\\2016_08_12_210928_create_images_table.php"
-			],
-			[
-				"routes",
-				"app\\Http\\routes.php"
-			],
-			[
-				"hellowor",
-				"app\\Notifications\\HelloWorld.php"
-			],
-			[
-				".e",
-				".env"
-			],
-			[
-				"jobs",
-				"app\\Http\\Controllers\\JobsController.php"
-			],
-			[
-				"jobscont",
-				"tests\\JobsControllerTest.php"
-			],
-			[
-				"interactswithpage",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing\\Concerns\\InteractsWithPages.php"
-			],
-			[
-				"exampletest",
-				"tests\\ExampleTest.php"
+				"app.",
+				"bootstrap\\app.php"
 			],
 			[
 				"homecont",
 				"app\\Http\\Controllers\\HomeController.php"
 			],
 			[
-				"jobscontet",
-				"tests\\JobsControllerTest.php"
+				"postcont",
+				"app\\Http\\Controllers\\PostsController.php"
 			],
 			[
-				"createcategor",
-				"database\\migrations\\2016_07_23_045543_create_categories_table.php"
+				"cretepostta",
+				"database\\migrations\\2016_08_28_140354_create_posts_table.php"
 			],
 			[
-				"createjobs",
-				"database\\migrations\\2016_07_23_045507_create_jobs_table.php"
+				"pack",
+				"package.json"
 			],
 			[
-				"collection",
+				"package",
+				"package.json"
+			],
+			[
+				"user-comments",
+				"resources\\views\\users\\partials\\user-comments.blade.php"
+			],
+			[
+				"home",
+				"app\\Http\\Controllers\\HomeController.php"
+			],
+			[
+				"app/post",
+				"app\\Post.php"
+			],
+			[
+				"app/user",
+				"app\\User.php"
+			],
+			[
+				"createnotificat",
+				"database\\migrations\\2016_08_28_140824_create_notifications_table.php"
+			],
+			[
+				"feature",
+				"features.md"
+			],
+			[
+				"broadsp",
+				"app\\Providers\\BroadcastServiceProvider.php"
+			],
+			[
+				"composerser",
+				"app\\Providers\\ViewComposerServiceProvider.php"
+			],
+			[
+				"createnoti",
+				"database\\migrations\\2016_08_28_140824_create_notifications_table.php"
+			],
+			[
+				"feat",
+				"features.md"
+			],
+			[
+				"java",
+				"config\\javascript.php"
+			],
+			[
+				"javas",
+				"vendor\\laracasts\\utilities\\src\\JavaScriptFacade.php"
+			],
+			[
+				"config/app",
+				"config\\app.php"
+			],
+			[
+				"config/java",
+				"config\\javascript.php"
+			],
+			[
+				".ing",
+				".gitignore"
+			],
+			[
+				"commentscont",
+				"app\\Http\\Controllers\\API\\CommentsController.php"
+			],
+			[
+				"onfig/auth",
+				"config\\auth.php"
+			],
+			[
+				"authsp",
+				"app\\Providers\\AuthServiceProvider.php"
+			],
+			[
+				"config/a",
+				"config\\app.php"
+			],
+			[
+				"app/c",
+				"app\\Comment.php"
+			],
+			[
+				"commenscont",
+				"app\\Http\\Controllers\\CommentsController.php"
+			],
+			[
+				"commentwas",
+				"app\\Events\\CommentWasPosted.php"
+			],
+			[
+				"config/",
+				"config\\app.php"
+			],
+			[
+				"illuminate/contracts/broadcasting/factory",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Broadcasting\\Factory.php"
+			],
+			[
+				"illuminate/support/facades/broadcast",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Broadcast.php"
+			],
+			[
+				"console/ker",
+				"app\\Console\\Kernel.php"
+			],
+			[
+				"sendchatme",
+				"app\\Console\\Commands\\SendChatMessage.php"
+			],
+			[
+				"chamessage",
+				"app\\Events\\ChatMessageWasReceived.php"
+			],
+			[
+				"ap.js",
+				"resources\\assets\\js\\app.js"
+			],
+			[
+				"events",
+				"app\\Providers\\EventServiceProvider.php"
+			],
+			[
+				".e",
+				".env"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"queu",
+				"config\\queue.php"
+			],
+			[
+				"q",
+				"config\\queue.php"
+			],
+			[
+				"config/que",
+				"config\\queue.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"sock",
+				"socket.js"
+			],
+			[
+				"bsp",
+				"app\\Providers\\BroadcastServiceProvider.php"
+			],
+			[
+				".en",
+				".env"
+			],
+			[
+				"broad",
+				"config\\broadcasting.php"
+			],
+			[
+				"shipping",
+				"app\\Events\\ShippingStatusUpdated.php"
+			],
+			[
+				"mas",
+				"resources\\views\\layouts\\master.blade.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"illiustr",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Str.php"
+			],
+			[
+				"config/debug",
+				"config\\debugbar.php"
+			],
+			[
+				"ap",
+				"config\\app.php"
+			],
+			[
+				"-single-timeline-post",
+				"resources\\views\\users\\partials\\user-single-timeline-post.blade.php"
+			],
+			[
+				"home.ba",
+				"resources\\views\\home.blade.php"
+			],
+			[
+				"friendable",
+				"vendor\\hootlex\\laravel-friendships\\src\\Traits\\Friendable.php"
+			],
+			[
+				"we",
+				"routes\\web.php"
+			],
+			[
+				"user",
+				"app\\User.php"
+			],
+			[
+				"crete_likes",
+				"database\\migrations\\2016_08_28_140902_create_likes_table.php"
+			],
+			[
+				"like",
+				"app\\Like.php"
+			],
+			[
+				"view/home",
+				"resources\\views\\home.blade.php"
+			],
+			[
+				"ilucollection",
 				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Collection.php"
 			],
 			[
-				"illumi/support",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php"
+				"_comment",
+				"resources\\assets\\sass\\addons\\_commentbox.scss"
+			],
+			[
+				"illuminate/respo",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php"
+			],
+			[
+				"modelfac",
+				"database\\factories\\ModelFactory.php"
+			],
+			[
+				"comment.vu",
+				"resources\\assets\\js\\components\\Comments.vue"
+			],
+			[
+				"comment",
+				"app\\Comment.php"
+			],
+			[
+				"create_com",
+				"database\\migrations\\2016_09_03_112728_create_comments_table.php"
+			],
+			[
+				"post",
+				"app\\Post.php"
+			],
+			[
+				"userscont",
+				"app\\Http\\Controllers\\UsersController.php"
+			],
+			[
+				"friendscontroller",
+				"app\\Http\\Controllers\\FriendsController.php"
+			],
+			[
+				"friendshitest",
+				"vendor\\hootlex\\laravel-friendships\\tests\\FriendshipsTest.php"
+			],
+			[
+				"users/show",
+				"resources\\views\\users\\show.blade.php"
+			],
+			[
+				"postest",
+				"tests\\features\\PostTest.php"
+			],
+			[
+				"factomodel",
+				"database\\factories\\ModelFactory.php"
+			],
+			[
+				"user/show",
+				"resources\\views\\users\\show.blade.php"
+			],
+			[
+				"fri/index",
+				"resources\\views\\friends\\index.blade.php"
+			],
+			[
+				"friendsindex",
+				"resources\\views\\friends\\index.blade.php"
+			],
+			[
+				"friends/index",
+				"resources\\views\\friends\\index.blade.php"
+			],
+			[
+				"friendscont",
+				"app\\Http\\Controllers\\FriendsController.php"
+			],
+			[
+				"friendship",
+				"vendor\\hootlex\\laravel-friendships\\src\\Models\\Friendship.php"
+			],
+			[
+				"users/s",
+				"resources\\views\\users\\show.blade.php"
+			],
+			[
+				"uesrsshow",
+				"resources\\views\\users\\show.blade.php"
+			],
+			[
+				"users/sow",
+				"resources\\views\\users\\show.blade.php"
+			],
+			[
+				"routingcontroller",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php"
+			],
+			[
+				"frienshicont",
+				"app\\Http\\Controllers\\FriendshipController.php"
+			],
+			[
+				"friendship.php",
+				"vendor\\hootlex\\laravel-friendships\\src\\Models\\Friendship.php"
+			],
+			[
+				"models/friendship",
+				"vendor\\hootlex\\laravel-friendships\\src\\Models\\Friendship.php"
+			],
+			[
+				"/friendships/status",
+				"vendor\\hootlex\\laravel-friendships\\src\\Status.php"
+			],
+			[
+				"ips/traits/friendable",
+				"vendor\\hootlex\\laravel-friendships\\src\\Traits\\Friendable.php"
+			],
+			[
+				"traits/friendable",
+				"app\\Traits\\Friendable.php"
+			],
+			[
+				"endships/traits/friendable",
+				"vendor\\hootlex\\laravel-friendships\\src\\Traits\\Friendable.php"
+			],
+			[
+				"config/fri",
+				"config\\friendships.php"
+			],
+			[
+				"creat_frie",
+				"database\\migrations\\2016_08_28_141023_create_friends_table.php"
 			]
 		],
 		"width": 0.0
@@ -2229,8 +2453,8 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 245.0,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

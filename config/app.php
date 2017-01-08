@@ -177,10 +177,12 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\ViewComposerServiceProvider::class,
          Hootlex\Friendships\FriendshipsServiceProvider::class,
          Laravel\Passport\PassportServiceProvider::class,
+         Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
          // Barryvdh\Debugbar\ServiceProvider::class,
+         Maatwebsite\Excel\ExcelServiceProvider::class,
     ],
 
     /*
@@ -229,6 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         // 'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
 
 ];

@@ -5,38 +5,19 @@
               <div class="col-md-8">
                   @include('users.partials.user-post')
                   @include('users.partials.user-single-timeline-post')
-                  <!-- Pager -->
-                  @include('vendor.pagination.simple-default', ['paginator' => $posts])
               </div>
-
               <!-- Blog Sidebar Widgets Column -->
               <div class="col-md-4">
                   <!-- Blog Categories Well -->
                   <div class="well">
-                      <h4>Blog Categories</h4>
+                      <h4>Favourites</h4>
                       <div class="row">
                           <div class="col-lg-6">
                               <ul class="list-unstyled">
-                                  <li><a href="#">Category Name</a>
+                                  <li><a href="#">News Feeds</a></li>
+                                  <li><a href="#">Messages</a>
                                   </li>
-                                  <li><a href="#">Category Name</a>
-                                  </li>
-                                  <li><a href="#">Category Name</a>
-                                  </li>
-                                  <li><a href="#">Category Name</a>
-                                  </li>
-                              </ul>
-                          </div>
-                          <!-- /.col-lg-6 -->
-                          <div class="col-lg-6">
-                              <ul class="list-unstyled">
-                                  <li><a href="#">Category Name</a>
-                                  </li>
-                                  <li><a href="#">Category Name</a>
-                                  </li>
-                                  <li><a href="#">Category Name</a>
-                                  </li>
-                                  <li><a href="#">Category Name</a>
+                                  <li><a href="#">Events</a>
                                   </li>
                               </ul>
                           </div>

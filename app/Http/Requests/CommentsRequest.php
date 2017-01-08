@@ -29,7 +29,7 @@ class CommentsRequest extends FormRequest
         return [
             'user_id' => "required|in:{$id}," . Auth::id(),
             'post_id' => 'required|exists:posts,id',
-            'comment' => 'required|min:5',
+            'comment' => 'required|min:2',
         ];
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 
 // Route::get('/', function () {
     // DB::connection()->enableQueryLog();
@@ -13,10 +14,6 @@ use Illuminate\Http\Request;
 Auth::routes();
 
 Route::get('/', 'HomeController@index');
-Route::get('create/oauth', function ()
-{
-    return view('welcome');
-});
 Route::get('home', 'HomeController@index');
 Route::get('@{employee}/posts/{post}', 'PostsController@show')->name('posts.show');
 Route::post('@{employee}/posts', 'PostsController@create')->name('posts.create');

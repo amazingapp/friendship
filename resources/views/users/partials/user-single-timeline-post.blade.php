@@ -1,5 +1,6 @@
+<timeline></timeline>
 @foreach ($posts->sortByDesc('created_at') as $post)
-  <div class="panel panel-default">
+{{--   <div class="panel panel-default">
             <div class="user-post panel-body">
                           <div class="timeline-profile">
                                <img src="/images/40.png" class="pull-left" />
@@ -25,5 +26,5 @@
                           </div>
                           @include('users.partials.user-comments')
             </div>
-  </div>
+  </div> --}}
 @endforeach
